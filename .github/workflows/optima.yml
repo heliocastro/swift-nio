@@ -13,7 +13,7 @@ jobs:
     runs-on: macos-13-xlarge
     steps:
       - uses: actions/checkout@v4
-      - uses: vwdfive/optima-actions@v1
+      - uses: vwdfive/optima-actions@mac
         with:
           github-token: ${{ secrets.GH_ACCESS_TOKEN }}
           toolstation-token: ${{ secrets.OPTIMA_TOKEN }}
